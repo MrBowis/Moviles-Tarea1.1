@@ -11,7 +11,6 @@ class SerieMclaurin extends StatefulWidget {
 
 
 class _SerieMclaurinScreen extends State<SerieMclaurin> {
-  final _formKey = GlobalKey<FormState>();
   TextEditingController _num = TextEditingController();
   TextEditingController _rango = TextEditingController();
   String _resultado = '';
