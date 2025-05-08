@@ -20,6 +20,20 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
           children: [
             ElevatedButton(
               onPressed: (){
+                Navigator.pushNamed(context, '/sueldos');
+              }, 
+              child: Text('Ejercicio 16'),
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.pushNamed(context, '/clasificadorNumeros');
+              }, 
+              child: Text('Ejercicio 17'),
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: (){
                 Navigator.pushNamed(context, '/calcularNumAmigos');
               }, 
               child: Text('Ejercicio 18'),

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '/screens/calcularNumAmigos.dart';
 import '/screens/paginaPrincipal.dart';
 import '/screens/serieMclaurin.dart';
+import '/screens/sueldos.dart';
+import '/screens/clasificadorNumeros.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +20,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/calcularNumAmigos': (context) => CalcularNumamigos(),
         '/serieMclaurin': (context) => SerieMclaurin(),
+        '/sueldos': (context) => Sueldo(),
+        '/clasificadorNumeros': (context) => ClasificadorNumeros(),
       },
     );
   }
